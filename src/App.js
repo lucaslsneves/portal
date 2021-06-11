@@ -36,13 +36,30 @@ function App() {
           <Card
             url="https://app.powerbi.com/groups/me/reports/36a677ff-ecbe-4d7d-a952-82092cfc50fb/ReportSection"
             title="D-TIC_ATIVOS"
-            description="Inventário de computadores da INTS."
+            description="Dashboard de inventário de computadores da INTS."
           />
            <Card
             url="https://app.powerbi.com/groups/me/reports/71c8c20a-b0a0-465d-95a0-b0fc7c2c61a4"
-            title="Dashboard do vacinômetro da INTS"
+            title="Vacinômetro da INTS"
             description="Dashboard para controle de colaboradores que já foram vacinados"
           />
+          <Card
+            url="https://app.powerbi.com/view?r=eyJrIjoiYTc5YzQ1OTMtNThmMi00ODMxLWFiNjUtMGMwNzhlOWM4ZDc5IiwidCI6IjMwYWExY2UxLTI1NjYtNDA3NS1iN2JlLTNmMjYzZDg5NzkwNSJ9&pageName=ReportSection"
+            title="NIP - SACA"
+            description="Dashboard do Núcleo de informação e planejamento - INTS Região SACA"
+          />
+             <Card
+            url="https://app.powerbi.com/view?r=eyJrIjoiMzJlYTA3ZjEtZDZkYy00MjgzLWFkMTAtOTA0MjVhZjk2OTVhIiwidCI6IjMwYWExY2UxLTI1NjYtNDA3NS1iN2JlLTNmMjYzZDg5NzkwNSJ9&pageName=ReportSection3fca400e62f8c9805ef7"
+            title="Financeiro - SACA"
+            description="Dashboard Financeiro - INTS Região SACA"
+          />
+             <Card
+            url="https://app.powerbi.com/view?r=eyJrIjoiY2U0MDA2NjctN2M1Yy00Zjg1LTlmN2ItYTdiOGVjNTllZjdiIiwidCI6IjMwYWExY2UxLTI1NjYtNDA3NS1iN2JlLTNmMjYzZDg5NzkwNSJ9&pageName=ReportSection4bf54491f47972c7581b"
+            title="SAU - SACA"
+            description="SAU - INTS Região SACA"
+          />
+         
+       
         </CardSection>
         <GlobalStyle />
       </AppContainer>
