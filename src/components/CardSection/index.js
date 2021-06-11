@@ -6,6 +6,13 @@ const CardSection = styled.div`
   grid-gap: 20px;
 
   padding-bottom: 20px;
+
+  @media(max-width: 750px) {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
 `;
 
 export default CardSection;

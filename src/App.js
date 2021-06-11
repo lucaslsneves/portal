@@ -56,9 +56,20 @@ function App() {
              <Card
             url="https://app.powerbi.com/view?r=eyJrIjoiY2U0MDA2NjctN2M1Yy00Zjg1LTlmN2ItYTdiOGVjNTllZjdiIiwidCI6IjMwYWExY2UxLTI1NjYtNDA3NS1iN2JlLTNmMjYzZDg5NzkwNSJ9&pageName=ReportSection4bf54491f47972c7581b"
             title="SAU - SACA"
-            description="SAU - INTS Região SACA"
+            description="Dashboard de Serviço de Atendimento ao Usuário.
+            O SAU é o canal de comunicação entre os pacientes e os serviços administrados pelo INTS - INTS Região SACA"
           />
-         
+            <Card
+            url="https://app.powerbi.com/groups/2a893268-27c7-4c20-8719-9651255b402b/reports/0859cccd-3c5d-4e35-b5d8-f1dc698188c6/ReportSection"
+            title="D-CONT_CUSTOS_UNIDADE"
+            description="Dashboard de Gestão de contratos orçamentários - UPA BROTAS"
+          />
+            <Card
+            url="https://app.powerbi.com/groups/ccca8928-7804-4481-bc8d-1b9aba6f4eb4/reports/cd9d42fc-c06f-4b3b-8ea5-3967272bbb9c/ReportSectione114d89fcfdc9056a9fc"
+            title=" D-ADM_GOVERNANÇA CONTRATOS"
+            description="Dashboard de Governça de contratos - INTS"
+          />
+  
        
         </CardSection>
         <GlobalStyle />

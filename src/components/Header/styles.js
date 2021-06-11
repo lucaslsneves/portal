@@ -18,4 +18,20 @@ export const Container = styled.header`
     font-weight: 400;
     color:#e1e1e6;
   }
+  @media(max-width: 750px) {
+    justify-content: center;
+    img {
+      border: 0;
+      margin-bottom:10px;
+    }
+    div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+  }
 `;
