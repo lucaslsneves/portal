@@ -5,14 +5,14 @@ import { HiOutlineDocumentReport } from 'react-icons/hi';
 
 import { Container, ContentContainer, ImgContainer } from './styles';
 
-function Card({ url, img, title, description, type = 'dashboard' }) {
+function Card({ url,  title, description, type = 'dashboard',color = "#368a58" }) {
   return (
-    <Container>
+    <Container color={color} rel="noreferrer" href={url} target="_blank">
       <ImgContainer>
         {type === 'dashboard' ? <MdDashboard size={120}  /> : <HiOutlineDocumentReport size={120}  />}
       </ImgContainer>
 
-      <ContentContainer>
+      <ContentContainer color={color}>
         <h1>{title}</h1>
         <p>{description}</p>
         <a rel="noreferrer" href={url} target="_blank">

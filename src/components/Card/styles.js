@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {darken} from 'polished';
-export const Container = styled.div`
+export const Container = styled.a`
   width: 300px;
   height: 350px;
   border-radius: 4px;
@@ -17,10 +17,10 @@ export const Container = styled.div`
      color:#a8a8b3;
   }
   &:hover {
-    border: 3px solid #8cc84b;
+    border: 3px solid ${props => props.color};
 
     svg {
-      color: #8cc84b;
+      color: ${props => props.color};
   }
   }
 
@@ -73,7 +73,7 @@ color:#a8a8b3;
       text-transform: uppercase;
       font-size: 14px;
       color: #222;
-      background-color: #8cc84b;
+      background-color: ${props => props.color};
       transition: 200ms;
       &:hover {
         background-color: ${darken(0.06, '#8cc84b')};

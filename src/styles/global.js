@@ -18,6 +18,17 @@ export default createGlobalStyle`
   body {
     -webkit-font-smoothing: antialiased;
     background-color: #121214;
+    color: #e1e1e6;
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    @media(max-width: 750px) {
+      h1 {
+        text-align: center;
+      }
+    }
   }
   body, input, button {
     font: 14px 'Inter', sans-serif;

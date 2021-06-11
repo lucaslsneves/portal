@@ -22,22 +22,29 @@ function App() {
       <AppContainer>
         <Header setTheme={setTheme} theme={theme} />
 
+        <h1>TIC</h1>
         <CardSection>
           <Card
             url="https://app.powerbi.com/groups/me/reports/26311468-e27e-4724-8e50-c6d9271eb6fd/ReportSection25dafee6c7070657804b"
-            title="D-TIC_PROJETOS_V2"
-            description="Dashboard para monitoramento dos projetos no JIRA."
+            title="Projetos TIC - INTS (v2)"
+            description="Dashboard para monitoramento dos projetos do setor de TI no JIRA."
           />
           <Card
             url="https://app.powerbi.com/groups/me/reports/c3313ca5-55f3-438f-a218-c50d785c6f81/ReportSection9eec9aeed0040923d8ec"
-            title="D-TIC_PROJETOS"
-            description="Dashboard para monitoramento dos projetos no JIRA."
+            title="Projetos TIC - INTS (v1)"
+            description="Dashboard para monitoramento dos projetos do setor de TI no JIRA."
           />
           <Card
             url="https://app.powerbi.com/groups/me/reports/36a677ff-ecbe-4d7d-a952-82092cfc50fb/ReportSection"
-            title="D-TIC_ATIVOS"
+            title="Inventário de computadores da INTS"
             description="Dashboard de inventário de computadores da INTS."
           />
+         </CardSection>
+         <h1>Financeiro</h1>
+         <CardSection>
+
+         </CardSection>
+         <CardSection>
            <Card
             url="https://app.powerbi.com/groups/me/reports/71c8c20a-b0a0-465d-95a0-b0fc7c2c61a4"
             title="Vacinômetro da INTS"
