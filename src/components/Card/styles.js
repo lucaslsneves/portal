@@ -23,6 +23,10 @@ export const Container = styled.div`
       color: #8cc84b;
   }
   }
+
+  @media(max-width: 750px) {
+    margin-bottom: 20px;
+  }
   
 `;
 
