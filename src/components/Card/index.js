@@ -3,11 +3,11 @@ import { MdDashboard,MdPerson,MdAttachMoney} from 'react-icons/md';
 
 
 import {RiArrowRightSLine} from 'react-icons/ri';
-import {GiHealthNormal} from 'react-icons/gi';
-import {AiOutlineFundProjectionScreen} from 'react-icons/ai';
+
+
 
 import {FaDesktop,FaHospitalAlt} from 'react-icons/fa';
-import { HiOutlineDocumentReport } from 'react-icons/hi';
+
 
 import { Container, ContentContainer, ImgContainer } from './styles';
 
@@ -30,6 +30,7 @@ function Card({ url,  title, description, type = 'dashboard',color = "#368a58",i
         break;
       case 'person':
         Icon = <MdPerson size={120}/>
+        break;
       default:
         break;
     }

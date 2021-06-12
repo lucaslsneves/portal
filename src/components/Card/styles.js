@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import {darken} from 'polished';
 export const Container = styled.a`
   width: 300px;
   height: 350px;
