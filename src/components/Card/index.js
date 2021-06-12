@@ -1,12 +1,12 @@
 import React from 'react';
 import { MdDashboard,MdPerson,MdAttachMoney} from 'react-icons/md';
 
-
-import {RiArrowRightSLine} from 'react-icons/ri';
-
+import {RiArrowRightSLine,RiSyringeFill} from 'react-icons/ri';
 
 
-import {FaDesktop,FaHospitalAlt} from 'react-icons/fa';
+
+
+import {FaDesktop} from 'react-icons/fa';
 
 
 import { Container, ContentContainer, ImgContainer } from './styles';
@@ -17,7 +17,7 @@ function Card({ url,  title, description, type = 'dashboard',color = "#368a58",i
     let Icon;
     switch (icon) {
       case 'health':
-        Icon = <FaHospitalAlt size={120}/>
+        Icon = <RiSyringeFill size={120}/>
         break;
       case 'project':
         Icon = <MdDashboard size={120 }/>
