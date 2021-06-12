@@ -75,8 +75,6 @@ color:#a8a8b3;
       color: #222;
       background-color: ${props => props.color};
       transition: 200ms;
-      &:hover {
-        background-color: ${darken(0.06, '#8cc84b')};
-      }
+
   }
 `;

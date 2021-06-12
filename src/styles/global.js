@@ -21,7 +21,7 @@ export default createGlobalStyle`
     color: #e1e1e6;
 
     h1 {
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
 
     @media(max-width: 750px) {
