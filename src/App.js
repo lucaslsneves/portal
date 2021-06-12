@@ -76,10 +76,10 @@ function App() {
        
           />
       </CardSection>
-      <h1>Pessoal</h1>
+      <h1>Pessoas</h1>
       <CardSection>
           <Card
-            url="https://app.powerbi.com/groups/me/reports/71c8c20a-b0a0-465d-95a0-b0fc7c2c61a4"
+            url="https://app.powerbi.com/view?r=eyJrIjoiMTUwNjk5YTAtOTFlNS00ZTg2LThmOWQtODhhN2MyN2IxMDg2IiwidCI6ImEyZjQzY2NmLTM0OTYtNDcyYy1hZmNkLTI3NGRiMTIwOTBlMCJ9&pageName=ReportSection"
             title="Vacinômetro da INTS"
             description="Dashboard para controle de colaboradores que já foram vacinados"
             icon={icons.health}
