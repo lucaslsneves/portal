@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 export const Container = styled.a`
   width: 300px;
-  height: 350px;
+  height: 320px;
   border-radius: 4px;
   background-color: #202024;
   display: flex;
@@ -13,7 +13,6 @@ export const Container = styled.a`
   border: 3px solid transparent;
   
   svg {
-  
      //color:#a8a8b3;
      color: ${props => props.color};
   }
