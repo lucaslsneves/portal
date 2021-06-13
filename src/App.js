@@ -36,6 +36,7 @@ function App() {
             title="Projetos TIC - INTS (v2)"
             description="Dashboard para monitoramento dos projetos do setor de TI no Jira"
             color="#639cd9"
+        
           />
          
           <Card
@@ -50,6 +51,7 @@ function App() {
             title="Projetos TIC - INTS (v1)"
             description="Dashboard para monitoramento dos projetos do setor de TI no Jira"
             color="#639cd9"
+         
           />
         </CardSection>
         <h1>Financeiro</h1>
@@ -78,18 +80,12 @@ function App() {
       </CardSection>
       <h1>Pessoas</h1>
       <CardSection>
-          <Card
-            url="https://app.powerbi.com/view?r=eyJrIjoiMTUwNjk5YTAtOTFlNS00ZTg2LThmOWQtODhhN2MyN2IxMDg2IiwidCI6ImEyZjQzY2NmLTM0OTYtNDcyYy1hZmNkLTI3NGRiMTIwOTBlMCJ9&pageName=ReportSection"
-            title="Vacinômetro da INTS"
-            description="Dashboard para controle de colaboradores que já foram vacinados"
-            icon={icons.health}
-            color="#f96d6d"
-          />
+     
           <Card
             url="https://app.powerbi.com/view?r=eyJrIjoiYTc5YzQ1OTMtNThmMi00ODMxLWFiNjUtMGMwNzhlOWM4ZDc5IiwidCI6IjMwYWExY2UxLTI1NjYtNDA3NS1iN2JlLTNmMjYzZDg5NzkwNSJ9&pageName=ReportSection"
             title="NIP - SACA"
             description="Dashboard do Núcleo de informação e planejamento"
-            color="#f96d6d"
+            color="#A6ECE0"
           />
 
           <Card
@@ -98,13 +94,49 @@ function App() {
             description="Dashboard de Serviço de Atendimento ao Usuário.
             O SAU é o canal de comunicação entre os pacientes e os serviços administrados pelo INTS"
             icon="person"
+            color="#A6ECE0"
+          />
+
+        </CardSection>
+
+        <h1>Covid</h1>
+      <CardSection>
+     
+          <Card
+            url="https://app.powerbi.com/links/EqBd1OQt18?ctid=a2f43ccf-3496-472c-afcd-274db12090e0&pbi_source=linkShare"
+            title="Hospital Espanhol"
+            description="Dashboard de controle Hospital Espanhol"
+            icon={'hospital'}
+            color="#f96d6d"
+          />
+          <Card
+            url="https://app.powerbi.com/links/TXJRAdCPCu?ctid=a2f43ccf-3496-472c-afcd-274db12090e0&pbi_source=linkShare"
+            title="Hospital Bertioga"
+            description="Dashboard de controle Hospital Bertioga"
+            icon={'hospital'}
             color="#f96d6d"
           />
 
+          <Card
+            url="https://app.powerbi.com/Redirect?action=openreport&context=Annotate&ctid=a2f43ccf-3496-472c-afcd-274db12090e0&pbi_source=mobile_android&groupObjectId=&appId=&reportObjectId=1a31e8f7-f964-443e-8cfd-8de292927b93&reportPage=ReportSection77872f4131907763d0d5&bookmarkGuid=11e8a297-feed-4caf-8df8-932ab085b502"
+            title="Hospital Guarapiranga"
+            description="Dashboard de controle Hospital Bertioga"
+            icon={'hospital'}
+            color="#f96d6d"
+          />
 
-
+<Card
+            url="https://app.powerbi.com/view?r=eyJrIjoiMTUwNjk5YTAtOTFlNS00ZTg2LThmOWQtODhhN2MyN2IxMDg2IiwidCI6ImEyZjQzY2NmLTM0OTYtNDcyYy1hZmNkLTI3NGRiMTIwOTBlMCJ9&pageName=ReportSection"
+            title="Vacinômetro da INTS"
+            description="Dashboard para controle de colaboradores que já foram vacinados"
+            icon={icons.health}
+            color="#f96d6d"
+          />
 
         </CardSection>
+
+      
+    
         <GlobalStyle />
       </AppContainer>
     </ThemeProvider>

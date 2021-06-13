@@ -6,7 +6,7 @@ import {RiSyringeFill} from 'react-icons/ri';
 
 
 
-import {FaDesktop} from 'react-icons/fa';
+import {FaDesktop,FaHospitalAlt} from 'react-icons/fa';
 
 
 import { Container, ContentContainer, ImgContainer } from './styles';
@@ -30,6 +30,9 @@ function Card({ url,  title, description, type = 'dashboard',color = "#368a58",i
         break;
       case 'person':
         Icon = <MdPerson size={120}/>
+        break;
+      case 'hospital':
+        Icon = <FaHospitalAlt size={120}/>
         break;
       default:
         break;
