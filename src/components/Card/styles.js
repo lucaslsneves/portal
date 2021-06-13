@@ -6,21 +6,21 @@ export const Container = styled.a`
   background-color: #202024;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   transition: 200ms;
   text-align: center;
   border: 3px solid transparent;
   
   svg {
-     // color: #656464;
-     color:#a8a8b3;
+  
+     //color:#a8a8b3;
+     color: ${props => props.color};
   }
   &:hover {
     border: 3px solid ${props => props.color};
 
-    svg {
-      color: ${props => props.color};
-  }
+   
   }
 
   @media(max-width: 750px) {

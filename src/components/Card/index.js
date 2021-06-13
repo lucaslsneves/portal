@@ -38,6 +38,7 @@ function Card({ url,  title, description, type = 'dashboard',color = "#368a58",i
   }
   return (
     <Container color={color} rel="noreferrer" href={url} target="_blank">
+      <div>
       <ImgContainer>
         {setIcon()}
       
@@ -47,11 +48,9 @@ function Card({ url,  title, description, type = 'dashboard',color = "#368a58",i
       <ContentContainer color={color}>
         <h2>{title}</h2>
         <p>{description}</p>
-        <a rel="noreferrer" href={url} target="_blank">
-          Abrir
-          <RiArrowRightSLine size={20} color="#222"/>
-          </a>
+        
       </ContentContainer>
+      </div>
     </Container>
   )
 }
