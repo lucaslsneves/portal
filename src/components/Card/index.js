@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdDashboard,MdPerson,MdAttachMoney} from 'react-icons/md';
 
-import {RiArrowRightSLine,RiSyringeFill} from 'react-icons/ri';
+import {RiSyringeFill} from 'react-icons/ri';
 
 
 
