@@ -57,21 +57,21 @@ function App() {
           <Card
             url="https://app.powerbi.com/groups/2a893268-27c7-4c20-8719-9651255b402b/reports/0859cccd-3c5d-4e35-b5d8-f1dc698188c6/ReportSection"
             title="Financeiro - UPA Brotas"
-            description="Dashboard de Gestão de contratos orçamentários - UPA BROTAS"
+            description="Dashboard de Gestão de contratos orçamentários"
             icon="money"
 
           />
           <Card
             url="https://app.powerbi.com/view?r=eyJrIjoiMzJlYTA3ZjEtZDZkYy00MjgzLWFkMTAtOTA0MjVhZjk2OTVhIiwidCI6IjMwYWExY2UxLTI1NjYtNDA3NS1iN2JlLTNmMjYzZDg5NzkwNSJ9&pageName=ReportSection3fca400e62f8c9805ef7"
             title="Financeiro - SACA"
-            description="Dashboard Financeiro - INTS Região SACA"
+            description="Dashboard Financeiro"
             icon="money"
            
           />
           <Card
             url="https://app.powerbi.com/groups/ccca8928-7804-4481-bc8d-1b9aba6f4eb4/reports/cd9d42fc-c06f-4b3b-8ea5-3967272bbb9c/ReportSectione114d89fcfdc9056a9fc"
             title="Governança de Contratos - INTS"
-            description="Dashboard de Governça de contratos - INTS"
+            description="Dashboard de Governça de contratos"
             icon="money"
        
           />
@@ -88,7 +88,7 @@ function App() {
           <Card
             url="https://app.powerbi.com/view?r=eyJrIjoiYTc5YzQ1OTMtNThmMi00ODMxLWFiNjUtMGMwNzhlOWM4ZDc5IiwidCI6IjMwYWExY2UxLTI1NjYtNDA3NS1iN2JlLTNmMjYzZDg5NzkwNSJ9&pageName=ReportSection"
             title="NIP - SACA"
-            description="Dashboard do Núcleo de informação e planejamento - INTS Região SACA"
+            description="Dashboard do Núcleo de informação e planejamento"
             color="#f96d6d"
           />
 
@@ -96,7 +96,7 @@ function App() {
             url="https://app.powerbi.com/view?r=eyJrIjoiY2U0MDA2NjctN2M1Yy00Zjg1LTlmN2ItYTdiOGVjNTllZjdiIiwidCI6IjMwYWExY2UxLTI1NjYtNDA3NS1iN2JlLTNmMjYzZDg5NzkwNSJ9&pageName=ReportSection4bf54491f47972c7581b"
             title="SAU - SACA"
             description="Dashboard de Serviço de Atendimento ao Usuário.
-            O SAU é o canal de comunicação entre os pacientes e os serviços administrados pelo INTS - INTS Região SACA"
+            O SAU é o canal de comunicação entre os pacientes e os serviços administrados pelo INTS"
             icon="person"
             color="#f96d6d"
           />
