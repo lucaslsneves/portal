@@ -70,15 +70,9 @@ function App() {
             icon="money"
            
           />
-          <Card
-            url="https://app.powerbi.com/groups/ccca8928-7804-4481-bc8d-1b9aba6f4eb4/reports/cd9d42fc-c06f-4b3b-8ea5-3967272bbb9c/ReportSectione114d89fcfdc9056a9fc"
-            title="Governança de Contratos - INTS"
-            description="Dashboard de Governça de contratos"
-            icon="money"
-       
-          />
+   
       </CardSection>
-      <h1>Pessoas</h1>
+      <h1>Contratos</h1>
       <CardSection>
      
           <Card
@@ -86,6 +80,7 @@ function App() {
             title="NIP - SACA"
             description="Dashboard do Núcleo de informação e planejamento"
             color="#A6ECE0"
+            icon="file"
           />
 
           <Card
@@ -93,7 +88,15 @@ function App() {
             title="SAU - SACA"
             description="Dashboard de Serviço de Atendimento ao Usuário.
             O SAU é o canal de comunicação entre os pacientes e os serviços administrados pelo INTS"
-            icon="person"
+            icon="file"
+            color="#A6ECE0"
+          />
+
+        <Card
+            url="https://app.powerbi.com/groups/ccca8928-7804-4481-bc8d-1b9aba6f4eb4/reports/cd9d42fc-c06f-4b3b-8ea5-3967272bbb9c/ReportSectione114d89fcfdc9056a9fc"
+            title="Governança de Contratos - INTS"
+            description="Dashboard de Governça de contratos"
+            icon="file"
             color="#A6ECE0"
           />
 

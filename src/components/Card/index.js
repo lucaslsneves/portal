@@ -5,6 +5,7 @@ import {RiSyringeFill} from 'react-icons/ri';
 
 
 
+import {AiFillFile} from 'react-icons/ai';
 
 import {FaDesktop,FaHospitalAlt} from 'react-icons/fa';
 
@@ -33,6 +34,9 @@ function Card({ url,  title, description, type = 'dashboard',color = "#368a58",i
         break;
       case 'hospital':
         Icon = <FaHospitalAlt size={120}/>
+        break;
+      case 'file':
+        Icon = <AiFillFile size={120}/>
         break;
       default:
         break;
