@@ -54,26 +54,35 @@ function App() {
          
           />
         </CardSection>
-        <h1>Financeiro</h1>
+        <h1>Administrativo</h1>
         <CardSection>
-          <Card
+        <Card
+            url="https://app.powerbi.com/groups/ccca8928-7804-4481-bc8d-1b9aba6f4eb4/reports/cd9d42fc-c06f-4b3b-8ea5-3967272bbb9c/ReportSectione114d89fcfdc9056a9fc"
+            title="Governança de Contratos - INTS"
+            description="Dashboard de Governça de contratos"
+            icon="file"
+          
+          />
+      </CardSection>
+       
+      <h1>Contratos</h1>
+      <CardSection>
+
+      <Card
             url="https://app.powerbi.com/groups/2a893268-27c7-4c20-8719-9651255b402b/reports/0859cccd-3c5d-4e35-b5d8-f1dc698188c6/ReportSection"
             title="Financeiro - UPA Brotas"
             description="Dashboard de Gestão de contratos orçamentários"
             icon="money"
-
+            color="#A6ECE0"
           />
           <Card
             url="https://app.powerbi.com/view?r=eyJrIjoiMzJlYTA3ZjEtZDZkYy00MjgzLWFkMTAtOTA0MjVhZjk2OTVhIiwidCI6IjMwYWExY2UxLTI1NjYtNDA3NS1iN2JlLTNmMjYzZDg5NzkwNSJ9&pageName=ReportSection3fca400e62f8c9805ef7"
             title="Financeiro - SACA"
             description="Dashboard Financeiro"
             icon="money"
+            color="#A6ECE0"
            
           />
-   
-      </CardSection>
-      <h1>Contratos</h1>
-      <CardSection>
      
           <Card
             url="https://app.powerbi.com/view?r=eyJrIjoiYTc5YzQ1OTMtNThmMi00ODMxLWFiNjUtMGMwNzhlOWM4ZDc5IiwidCI6IjMwYWExY2UxLTI1NjYtNDA3NS1iN2JlLTNmMjYzZDg5NzkwNSJ9&pageName=ReportSection"
@@ -91,16 +100,10 @@ function App() {
             icon="file"
             color="#A6ECE0"
           />
-
-        <Card
-            url="https://app.powerbi.com/groups/ccca8928-7804-4481-bc8d-1b9aba6f4eb4/reports/cd9d42fc-c06f-4b3b-8ea5-3967272bbb9c/ReportSectione114d89fcfdc9056a9fc"
-            title="Governança de Contratos - INTS"
-            description="Dashboard de Governça de contratos"
-            icon="file"
-            color="#A6ECE0"
-          />
+        
 
         </CardSection>
+       
 
         <h1>Covid</h1>
       <CardSection>
