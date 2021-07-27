@@ -57,7 +57,7 @@ function App() {
         <h1>Administrativo</h1>
         <CardSection>
         <Card
-            url="https://app.powerbi.com/groups/ccca8928-7804-4481-bc8d-1b9aba6f4eb4/reports/cd9d42fc-c06f-4b3b-8ea5-3967272bbb9c/ReportSectione114d89fcfdc9056a9fc"
+            url="https://app.powerbi.com/groups/ccca8928-7804-4481-bc8d-1b9aba6f4eb4/reports/57b2e547-2db5-428b-8f3c-8eb0e19e2633/ReportSectione114d89fcfdc9056a9fc"
             title="Governança de Contratos - INTS"
             description="Dashboard de Governça de contratos"
             icon="file"
