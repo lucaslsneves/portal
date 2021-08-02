@@ -32,14 +32,6 @@ function App() {
         <h1>TIC</h1>
         <CardSection>
           <Card
-            url="https://app.powerbi.com/groups/me/reports/26311468-e27e-4724-8e50-c6d9271eb6fd/ReportSection25dafee6c7070657804b"
-            title="Projetos TIC - INTS (v2)"
-            description="Dashboard para monitoramento dos projetos do setor de TI no Jira"
-            color="#639cd9"
-        
-          />
-         
-          <Card
             url="https://app.powerbi.com/groups/me/reports/36a677ff-ecbe-4d7d-a952-82092cfc50fb/ReportSection"
             title="Inventário de computadores da INTS"
             description="Dashboard de inventário de computadores"
@@ -48,7 +40,7 @@ function App() {
           />
            <Card
             url="https://app.powerbi.com/groups/me/reports/c3313ca5-55f3-438f-a218-c50d785c6f81/ReportSection9eec9aeed0040923d8ec"
-            title="Projetos TIC - INTS (v1)"
+            title="Projetos TIC - INTS"
             description="Dashboard para monitoramento dos projetos do setor de TI no Jira"
             color="#639cd9"
          
@@ -61,7 +53,7 @@ function App() {
             title="Governança de Contratos - INTS"
             description="Dashboard de Governça de contratos"
             icon="file"
-          
+
           />
       </CardSection>
        
