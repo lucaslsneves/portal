@@ -38,29 +38,29 @@ function App() {
             icon="desktop"
             color="#639cd9"
           />
-           <Card
+          <Card
             url="https://app.powerbi.com/groups/me/reports/c3313ca5-55f3-438f-a218-c50d785c6f81/ReportSection9eec9aeed0040923d8ec"
             title="Projetos TIC - INTS"
             description="Dashboard para monitoramento dos projetos do setor de TI no Jira"
             color="#639cd9"
-         
+
           />
         </CardSection>
         <h1>Administrativo</h1>
         <CardSection>
-        <Card
+          <Card
             url="https://app.powerbi.com/groups/ccca8928-7804-4481-bc8d-1b9aba6f4eb4/reports/57b2e547-2db5-428b-8f3c-8eb0e19e2633/ReportSectione114d89fcfdc9056a9fc"
             title="Governança de Contratos - INTS"
             description="Dashboard de Governça de contratos"
             icon="file"
 
           />
-      </CardSection>
-       
-      <h1>Contratos</h1>
-      <CardSection>
+        </CardSection>
 
-      <Card
+        <h1>Contratos</h1>
+        <CardSection>
+
+          <Card
             url="https://app.powerbi.com/groups/2a893268-27c7-4c20-8719-9651255b402b/reports/0859cccd-3c5d-4e35-b5d8-f1dc698188c6/ReportSection"
             title="Financeiro - UPA Brotas"
             description="Dashboard de Gestão de contratos orçamentários"
@@ -73,9 +73,9 @@ function App() {
             description="Dashboard Financeiro"
             icon="money"
             color="#A6ECE0"
-           
+
           />
-     
+
           <Card
             url="https://app.powerbi.com/view?r=eyJrIjoiYTc5YzQ1OTMtNThmMi00ODMxLWFiNjUtMGMwNzhlOWM4ZDc5IiwidCI6IjMwYWExY2UxLTI1NjYtNDA3NS1iN2JlLTNmMjYzZDg5NzkwNSJ9&pageName=ReportSection"
             title="NIP - SACA"
@@ -92,14 +92,14 @@ function App() {
             icon="file"
             color="#A6ECE0"
           />
-        
+
 
         </CardSection>
-       
+
 
         <h1>Covid</h1>
-      <CardSection>
-     
+        <CardSection>
+
           <Card
             url="https://app.powerbi.com/links/EqBd1OQt18?ctid=a2f43ccf-3496-472c-afcd-274db12090e0&pbi_source=linkShare"
             title="Hospital Espanhol"
@@ -123,8 +123,8 @@ function App() {
             color="#f96d6d"
           />
 
-<Card
-            url="https://app.powerbi.com/view?r=eyJrIjoiMTUwNjk5YTAtOTFlNS00ZTg2LThmOWQtODhhN2MyN2IxMDg2IiwidCI6ImEyZjQzY2NmLTM0OTYtNDcyYy1hZmNkLTI3NGRiMTIwOTBlMCJ9&pageName=ReportSection"
+          <Card
+            url="http://ints.org.br/vacinometro-ints/"
             title="Vacinômetro da INTS"
             description="Dashboard para controle de colaboradores que já foram vacinados"
             icon={icons.health}
@@ -133,8 +133,8 @@ function App() {
 
         </CardSection>
 
-      
-    
+
+
         <GlobalStyle />
       </AppContainer>
     </ThemeProvider>
