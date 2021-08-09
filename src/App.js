@@ -1,10 +1,11 @@
 
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import dark from './styles/themes/dark'
 import light from './styles/themes/light'
 import { ThemeProvider } from 'styled-components';
 import GlobalStyle from './styles/global';
 import { icons } from './types/icons';
+import {getAllCategories} from './services/dato-cms'
 import Card from './components/Card';
 import Header from './components/Header';
 import AppContainer from './components/AppContainer';
@@ -23,6 +24,10 @@ function App() {
     dark,
     light
   }
+
+  useEffect( () => {
+    getAllCategories();
+  }, [])
 
   return (
     <ThemeProvider theme={themes[theme]}>
