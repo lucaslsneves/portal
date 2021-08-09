@@ -17,13 +17,13 @@ function Card({ url,  title, description, type = 'dashboard',color = "#368a58",i
   function setIcon() {
     let Icon;
     switch (icon) {
-      case 'health':
+      case 'syringe':
         Icon = <RiSyringeFill size={120}/>
         break;
-      case 'project':
+      case 'dashboard':
         Icon = <MdDashboard size={120 }/>
         break;
-        case 'desktop':
+        case 'pc':
           Icon = <FaDesktop size={120 }/>
           break;
       case 'money':
