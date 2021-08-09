@@ -1,4 +1,4 @@
-import env from '../env.js';
+import env from '../consts';
 
 async function fetchCmsAPI(query, { variables } = {}) {
     const res = await fetch(env.API_URL, {
