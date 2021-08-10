@@ -9,8 +9,9 @@ import Card from './components/Card';
 import Header from './components/Header';
 import AppContainer from './components/AppContainer';
 import CardSection from './components/CardSection';
-
+import CardSkeleton from './components/CardSkeleton';
 import styled from 'styled-components';
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 
 export const SpecialH1 = styled.h1`
   margin-bottom: 0;
@@ -31,8 +32,11 @@ function App() {
     getAllCategories().then((categories) => {
       categories.reverse()
       setCategories(categories)
+      setTimeout(() => {
       setIsLoading(false)
-      setError(false);
+        setError(false);
+      }, 1000)
+
     }).catch((err) => {
       setIsLoading(false);
       setError(true);
@@ -46,7 +50,26 @@ function App() {
       <ThemeProvider theme={themes[theme]}>
         <AppContainer>
           <Header setTheme={setTheme} theme={theme} />
-          <h1>Carregando...</h1>
+
+          <SkeletonTheme color="#202020" highlightColor="#444">
+            <div className="wrapper-skeleton">
+              <Skeleton height={30} width={250} />
+            </div>
+            <CardSection>
+
+              <CardSkeleton />
+              <CardSkeleton />
+              <CardSkeleton />
+
+            </CardSection>
+            <CardSection>
+
+              <CardSkeleton />
+              <CardSkeleton />
+              <CardSkeleton />
+
+            </CardSection>
+          </SkeletonTheme>
         </AppContainer>
         <GlobalStyle />
       </ThemeProvider>
@@ -68,20 +91,20 @@ function App() {
           <Header setTheme={setTheme} theme={theme} />
           {categories.map(category => (
             <>
-            <h1>{category.title}</h1>
-            <CardSection>
-              {
-              category.indicators.map(indicator => (
-                <Card 
-                url={indicator.url}
-                title={indicator.title}
-                description={indicator.description}
-                icon={indicator.icon.name}
-                color={category.color.hex}
-                />   
-              ))
-              } 
-            </CardSection>
+              <h1>{category.title}</h1>
+              <CardSection>
+                {
+                  category.indicators.map(indicator => (
+                    <Card
+                      url={indicator.url}
+                      title={indicator.title}
+                      description={indicator.description}
+                      icon={indicator.icon.name}
+                      color={category.color.hex}
+                    />
+                  ))
+                }
+              </CardSection>
             </>
           ))}
           <GlobalStyle />
