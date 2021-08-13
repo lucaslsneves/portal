@@ -7,6 +7,8 @@ import {RiSyringeFill} from 'react-icons/ri';
 
 import {AiFillFile} from 'react-icons/ai';
 
+import {GiWifiRouter} from 'react-icons/gi';
+
 import {FaDesktop,FaHospitalAlt} from 'react-icons/fa';
 
 
@@ -37,6 +39,9 @@ function Card({ url,  title, description, type = 'dashboard',color = "#368a58",i
         break;
       case 'file':
         Icon = <AiFillFile size={120}/>
+        break;
+      case 'wifi-router':
+        Icon = <GiWifiRouter size={120}/>
         break;
       default:
         break;
