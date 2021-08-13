@@ -41,7 +41,7 @@ function Card({ url,  title, description, type = 'dashboard',color = "#368a58",i
         Icon = <AiFillFile size={120}/>
         break;
       case 'wifi-router':
-        Icon = <GiWifiRouter size={120}/>
+        Icon = <GiWifiRouter size={132}/>
         break;
       default:
         break;

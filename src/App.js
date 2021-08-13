@@ -30,7 +30,6 @@ function App() {
 
   useEffect(() => {
     getAllCategories().then((categories) => {
-      categories.reverse()
       setCategories(categories)
       setTimeout(() => {
       setIsLoading(false)
